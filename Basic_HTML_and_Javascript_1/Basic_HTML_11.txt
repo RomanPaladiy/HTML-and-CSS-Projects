@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Click Here</button>
+
+<script src="Basic_Javascript_1.js"></script>
+<p>
+    <font color="orange" face="Calibri" size="3"
+	This orange text is written in Calibri.
+    </font>
+<b> "makes bold text"</b>
+<i> "italicizes text"</i>
+<u> "underlines text" </u>
+
+<img <img class="fit-picture"
+     sc="/media/cc0-images/grapefruit-slice-332-332.jpg"
+     alt="Grapefruit slice atop a pile of other slices">
+</p>
+</body>
+</html>
