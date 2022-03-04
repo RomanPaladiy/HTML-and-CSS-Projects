@@ -7,5 +7,7 @@ input {
     width: auto;
     margin-top: auto;
     margin-bottom: auto;
-    border-radius: 2;
+    border-radius: 1px;
+    border-width: 2px ;
+    border-color: darkslategrey;
 }
