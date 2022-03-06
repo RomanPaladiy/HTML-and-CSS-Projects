@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="en">
+    
+<!-- All of the challenges are in this file.-->
+
+    <head>
+        <style>
+
+            .container {
+                position: relative;
+                text-align: center;
+                color: aliceblue;
+            }
+
+            .centered{
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            table, th, td {
+                border: 2px solid blueviolet;
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+
+            th {
+                background-color: bisque;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                filter: blur(3px);
+                border-radius: 15px;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .navbar {
+                background-color: lightcoral;
+                font-family: 'Courier New', Courier, monospace;
+
+            }
+            .navbar:hover {
+                background-color: blueviolet;
+            }
+            .column {
+                 float: left;
+                width: 50%;
+                color: antiquewhite;
+            }
+
+            .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkblue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            footer:hover {
+                background-color: red ;
+            }
+        </style>
+        <meta charset="utf-8">
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+ 
+        <title>First Challenge</title>
+    </head>
+    <body>
+        <p>This is the First Challenge</p>
+        <div class="container">
+        <img src="../One_Page_Website/Images_2/Classic_1.png" alt="This is a bmw 2002" class="center">
+        <div class="centered">BMW 2002</div>
+        <div class="overlay">
+            <div class="text">It works!</div>
+        </div>
+
+       </div> 
+
+       <div class="row">
+        <div class="column" style="background-color: blue">
+          <h2>Column 1</h2>
+          <p>This is the first column</p>
+        </div>
+        <div class="column" style="background-color: blue">
+          <h2>Column 2</h2>
+          <p>This is the second column</p>
+        </div>
+      </div>
+
+    </body>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+            <td>Roman</td>
+            <td>Paladiy</td>
+            <td>roman.paladiy03@gmail.com</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p><strong>The person who finished these challenges is: Roman Paladiy</strong></p>
+    </footer>
+</html>
